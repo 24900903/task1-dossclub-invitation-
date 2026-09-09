@@ -11,92 +11,111 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600&display=swap"
         rel="stylesheet">
 
-    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <div class="background-glow glow-one"></div>
-    <div class="background-glow glow-two"></div>
+    <!-- Background decorations -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+
+    <!-- Main invitation -->
+    <main class="invitation-card">
+
+        <!-- Decorative corner elements -->
+        <div class="corner top-left"></div>
+        <div class="corner top-right"></div>
+        <div class="corner bottom-left"></div>
+        <div class="corner bottom-right"></div>
 
 
-    <main class="invitation">
-
-        <!-- Decorative top line -->
-        <div class="top-decoration">
+        <!-- Top decoration -->
+        <div class="ornament">
             <span></span>
-            <i>✦</i>
+            <div>✦</div>
             <span></span>
         </div>
 
 
-        <!-- Hotel name -->
+        <!-- Hotel -->
         <p class="hotel-name">
             THE AURELIA GRAND
         </p>
 
-
-        <!-- Main heading -->
-        <p class="invited">
-            CORDIALLY INVITES YOU TO
+        <p class="subtitle">
+            A LUXURY HOTEL EXPERIENCE
         </p>
 
+
+        <!-- Main heading -->
         <h1>
-            Our Grand<br>
-            <em>Opening</em>
+            Grand
+            <span>Opening</span>
         </h1>
 
 
-        <!-- Description -->
-        <p class="description">
-            An evening of elegance, exquisite hospitality,
-            fine dining and unforgettable moments.
+        <p class="intro">
+            An evening of elegance, exquisite cuisine,
+            exceptional hospitality and unforgettable
+            moments awaits you.
         </p>
 
 
         <!-- Event details -->
-        <section class="details">
+        <div class="details-container">
 
-            <div class="detail">
-                <span class="detail-icon">◆</span>
+            <div class="detail-card">
 
-                <div>
-                    <p class="label">DATE</p>
-                    <p class="value">25 September 2026</p>
+                <div class="detail-icon">
+                    <span>01</span>
                 </div>
+
+                <div class="detail-content">
+                    <p>DATE</p>
+                    <h2>25</h2>
+                    <span>September 2026</span>
+                </div>
+
             </div>
 
 
-            <div class="detail">
-                <span class="detail-icon">◆</span>
+            <div class="detail-card">
 
-                <div>
-                    <p class="label">TIME</p>
-                    <p class="value">6:30 PM onwards</p>
+                <div class="detail-icon">
+                    <span>02</span>
                 </div>
+
+                <div class="detail-content">
+                    <p>TIME</p>
+                    <h2>6:30</h2>
+                    <span>PM onwards</span>
+                </div>
+
             </div>
 
 
-            <div class="detail">
-                <span class="detail-icon">◆</span>
+            <div class="detail-card">
 
-                <div>
-                    <p class="label">VENUE</p>
-                    <p class="value">
-                        The Aurelia Grand Hotel
-                    </p>
-
-                    <p class="address">
-                        Chennai, Tamil Nadu
-                    </p>
+                <div class="detail-icon">
+                    <span>03</span>
                 </div>
+
+                <div class="detail-content">
+                    <p>VENUE</p>
+                    <h2 class="venue-title">
+                        AURELIA
+                    </h2>
+                    <span>Chennai, Tamil Nadu</span>
+                </div>
+
             </div>
 
-        </section>
+        </div>
 
 
         <!-- Divider -->
@@ -108,20 +127,25 @@
 
 
         <!-- RSVP -->
-        <section class="rsvp">
+        <section class="rsvp-section">
 
-            <p>
-                We would be delighted to celebrate
-                this special occasion with you.
+            <p class="rsvp-text">
+                Your presence would make this occasion
+                truly special.
             </p>
+
 
             <a href="#" class="rsvp-button">
 
-                <span>RSVP</span>
+                <span class="button-text">
+                    RSVP NOW
+                </span>
 
-                <span class="arrow">
+                <span class="button-arrow">
                     →
                 </span>
+
+                <span class="button-shine"></span>
 
             </a>
 
@@ -130,7 +154,7 @@
 
         <!-- Footer -->
         <p class="footer">
-            A NEW CHAPTER IN LUXURY BEGINS
+            WHERE ELEGANCE MEETS HOSPITALITY
         </p>
 
     </main>
